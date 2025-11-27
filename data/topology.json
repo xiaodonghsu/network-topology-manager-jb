@@ -1,0 +1,155 @@
+{
+  "nodes": [
+    { "id": "internet", "label": "互联网 (Internet)", "type": "INTERNET", "x": 600, "y": 50, "url": "#" },
+    { "id": "ddos-detect", "label": "Anti-DDoS 检测设备", "type": "DDOS", "x": 1000, "y": 100, "url": "#" },
+    { "id": "fw-01", "label": "出口防火墙01", "type": "FIREWALL", "x": 450, "y": 230, "url": "https://192.168.1.1" },
+    { "id": "fw-02", "label": "出口防火墙02", "type": "FIREWALL", "x": 750, "y": 230, "url": "#" },
+    { "id": "ips-01", "label": "IPS01", "type": "IPS", "x": 450, "y": 410, "url": "#" },
+    { "id": "ips-02", "label": "IPS02", "type": "IPS", "x": 750, "y": 410, "url": "#" },
+    { "id": "agg-01", "label": "汇聚交换机01", "type": "SWITCH_CORE", "x": 450, "y": 590, "url": "#" },
+    { "id": "agg-02", "label": "汇聚交换机02", "type": "SWITCH_CORE", "x": 750, "y": 590, "url": "#" },
+    { "id": "ddos-clean", "label": "Anti-DDoS 清洗设备", "type": "DDOS", "x": 1050, "y": 590, "url": "#" },
+    
+    { "id": "tor-biz-01", "label": "业务面TOR交换机01", "type": "SWITCH_TOR", "x": 50, "y": 840, "url": "#" },
+    { "id": "tor-biz-02", "label": "业务面TOR交换机02", "type": "SWITCH_TOR", "x": 250, "y": 840, "url": "#" },
+    { "id": "tor-biz-03", "label": "业务面TOR交换机03", "type": "SWITCH_TOR", "x": 450, "y": 840, "url": "#" },
+    { "id": "tor-biz-04", "label": "业务面TOR交换机04", "type": "SWITCH_TOR", "x": 650, "y": 840, "url": "#" },
+    { "id": "tor-sample-01", "label": "样本面TOR交换机01", "type": "SWITCH_TOR", "x": 850, "y": 840, "url": "#" },
+    { "id": "tor-sample-02", "label": "样本面TOR交换机02", "type": "SWITCH_TOR", "x": 1050, "y": 840, "url": "#" },
+    
+    { "id": "mgmt-agg-01", "label": "带外管理汇聚01", "type": "SWITCH_CORE", "x": 1300, "y": 840, "url": "#" },
+    { "id": "mgmt-agg-02", "label": "带外管理汇聚02", "type": "SWITCH_CORE", "x": 1500, "y": 840, "url": "#" },
+    
+    { "id": "mgmt-sys-neosight", "label": "iMaster NeoSight", "type": "MANAGEMENT", "x": 1700, "y": 590, "url": "#" },
+    { "id": "mgmt-sys-seco", "label": "SecoManager", "type": "MANAGEMENT", "x": 1700, "y": 690, "url": "#" },
+    { "id": "mgmt-sys-log", "label": "LogAuditor", "type": "MANAGEMENT", "x": 1700, "y": 790, "url": "#" },
+    { "id": "mgmt-sys-uma", "label": "UMA", "type": "MANAGEMENT", "x": 1700, "y": 890, "url": "#" },
+    { "id": "mgmt-sys-vscan", "label": "VSCAN", "type": "MANAGEMENT", "x": 1700, "y": 990, "url": "#" },
+    
+    { "id": "mgmt-access-01", "label": "带外管理接入01", "type": "SWITCH_TOR", "x": 1400, "y": 1040, "url": "#" },
+    { "id": "mgmt-access-02", "label": "带外管理接入02", "type": "SWITCH_TOR", "x": 1200, "y": 1040, "url": "#" },
+    { "id": "storage-mgmt-01", "label": "存储带内管理接入01", "type": "SWITCH_TOR", "x": 1600, "y": 1240, "url": "#" },
+
+    { "id": "srv-ai-train-01", "label": "AI训练服务器1", "type": "SERVER_AI", "x": 50, "y": 1090, "url": "#" },
+    { "id": "srv-ai-train-02", "label": "AI训练服务器2", "type": "SERVER_AI", "x": 50, "y": 1240, "url": "#" },
+    { "id": "srv-ai-train-03", "label": "AI训练服务器3", "type": "SERVER_AI", "x": 50, "y": 1390, "url": "#" },
+    { "id": "srv-ai-train-04", "label": "AI训练服务器4", "type": "SERVER_AI", "x": 50, "y": 1440, "url": "#" },
+    { "id": "srv-ai-train-05", "label": "AI训练服务器5", "type": "SERVER_AI", "x": 50, "y": 1590, "url": "#" },
+    
+    { "id": "srv-ai-inf-01", "label": "AI推理服务器1", "type": "SERVER_AI", "x": 1050, "y": 1090, "url": "#" },
+    { "id": "srv-ai-inf-02", "label": "AI推理服务器2", "type": "SERVER_AI", "x": 1250, "y": 1090, "url": "#" },
+    { "id": "srv-ai-inf-03", "label": "AI推理服务器3", "type": "SERVER_AI", "x": 1450, "y": 1090, "url": "#" },
+    
+    { "id": "srv-gen-01", "label": "通用计算1", "type": "SERVER", "x": 1650, "y": 1090, "url": "#" },
+    { "id": "srv-gen-02", "label": "通用计算2", "type": "SERVER", "x": 1850, "y": 1090, "url": "#" },
+    { "id": "srv-gen-03", "label": "通用计算3", "type": "SERVER", "x": 2050, "y": 1090, "url": "#" },
+    { "id": "srv-gen-04", "label": "通用计算4", "type": "SERVER", "x": 2250, "y": 1090, "url": "#" },
+    { "id": "srv-gen-05", "label": "通用计算5", "type": "SERVER", "x": 2450, "y": 1090, "url": "#" },
+    { "id": "srv-gen-06", "label": "通用计算6", "type": "SERVER", "x": 2650, "y": 1090, "url": "#" },
+    
+    { "id": "srv-mgmt-01", "label": "管理服务1", "type": "SERVER", "x": 2850, "y": 1090, "url": "#" },
+    { "id": "srv-mgmt-02", "label": "管理服务2", "type": "SERVER", "x": 3050, "y": 1090, "url": "#" },
+    { "id": "srv-mgmt-03", "label": "管理服务3", "type": "SERVER", "x": 3250, "y": 1090, "url": "#" },
+    { "id": "srv-mgmt-04", "label": "管理服务4", "type": "SERVER", "x": 3450, "y": 1090, "url": "#" },
+    { "id": "srv-mgmt-05", "label": "管理服务5", "type": "SERVER", "x": 3650, "y": 1090, "url": "#" },
+    
+    { "id": "srv-hpc-01", "label": "高性能计算1", "type": "SERVER", "x": 3850, "y": 1090, "url": "#" },
+    { "id": "srv-hpc-02", "label": "高性能计算2", "type": "SERVER", "x": 4050, "y": 1090, "url": "#" },
+    { "id": "srv-hpc-03", "label": "高性能计算3", "type": "SERVER", "x": 4250, "y": 1090, "url": "#" },
+    { "id": "srv-hpc-04", "label": "高性能计算4", "type": "SERVER", "x": 4450, "y": 1090, "url": "#" },
+    
+    { "id": "srv-edge-01", "label": "边缘推理1", "type": "SERVER", "x": 4650, "y": 1090, "url": "#" },
+    { "id": "srv-edge-02", "label": "边缘推理2", "type": "SERVER", "x": 4850, "y": 1090, "url": "#" },
+    
+    { "id": "srv-storage-01", "label": "文件存储服务器1", "type": "STORAGE", "x": 5050, "y": 1090, "url": "#" },
+    { "id": "srv-storage-02", "label": "文件存储服务器2", "type": "STORAGE", "x": 5250, "y": 1090, "url": "#" },
+    { "id": "srv-storage-03", "label": "文件存储服务器3", "type": "STORAGE", "x": 5450, "y": 1090, "url": "#" },
+    { "id": "srv-storage-04", "label": "文件存储服务器4", "type": "STORAGE", "x": 5650, "y": 1090, "url": "#" },
+    { "id": "srv-storage-05", "label": "文件存储服务器5", "type": "STORAGE", "x": 5850, "y": 1090, "url": "#" },
+
+    { "id": "net-ai-train", "label": "AI训练区参数面网络01", "type": "SWITCH_CORE", "x": 100, "y": 1290, "url": "#" },
+    { "id": "net-ai-inf", "label": "AI推理区参数面网络01", "type": "SWITCH_CORE", "x": 350, "y": 1290, "url": "#" },
+    { "id": "net-storage", "label": "存储面TOR交换机01", "type": "SWITCH_CORE", "x": 1400, "y": 1290, "url": "#" }
+  ],
+  "edges": [
+    { "source": "internet", "target": "fw-01", "speed": "100G" },
+    { "source": "internet", "target": "fw-02", "speed": "100G" },
+    { "source": "internet", "target": "ddos-detect", "speed": "25G", "animated": true },
+    
+    { "source": "fw-01", "target": "ips-01", "speed": "10G" },
+    { "source": "fw-01", "target": "ips-02", "speed": "10G" },
+    { "source": "fw-02", "target": "ips-01", "speed": "10G" },
+    { "source": "fw-02", "target": "ips-02", "speed": "10G" },
+    
+    { "source": "ips-01", "target": "agg-01", "speed": "10G" },
+    { "source": "ips-01", "target": "agg-02", "speed": "10G" },
+    { "source": "ips-02", "target": "agg-01", "speed": "10G" },
+    { "source": "ips-02", "target": "agg-02", "speed": "10G" },
+    
+    { "source": "agg-02", "target": "ddos-clean", "speed": "200G", "animated": true },
+    
+    { "source": "agg-01", "target": "tor-biz-01", "speed": "100G" },
+    { "source": "agg-01", "target": "tor-biz-02", "speed": "100G" },
+    { "source": "agg-01", "target": "tor-biz-03", "speed": "100G" },
+    { "source": "agg-01", "target": "tor-biz-04", "speed": "100G" },
+    { "source": "agg-02", "target": "tor-biz-01", "speed": "100G" },
+    { "source": "agg-02", "target": "tor-biz-02", "speed": "100G" },
+    { "source": "agg-02", "target": "tor-biz-03", "speed": "100G" },
+    { "source": "agg-02", "target": "tor-biz-04", "speed": "100G" },
+    
+    { "source": "agg-01", "target": "tor-sample-01", "speed": "100G" },
+    { "source": "agg-01", "target": "tor-sample-02", "speed": "100G" },
+    { "source": "agg-02", "target": "tor-sample-01", "speed": "100G" },
+    { "source": "agg-02", "target": "tor-sample-02", "speed": "100G" },
+    
+    { "source": "agg-01", "target": "mgmt-agg-01", "speed": "100G" },
+    { "source": "agg-02", "target": "mgmt-agg-02", "speed": "100G" },
+    
+    { "source": "tor-biz-01", "target": "srv-ai-train-01", "speed": "25G" },
+    { "source": "tor-biz-02", "target": "srv-ai-train-01", "speed": "25G" },
+    { "source": "tor-biz-01", "target": "srv-ai-train-02", "speed": "25G" },
+    { "source": "tor-biz-02", "target": "srv-ai-train-02", "speed": "25G" },
+    { "source": "tor-biz-01", "target": "srv-ai-train-03", "speed": "25G" },
+    { "source": "tor-biz-02", "target": "srv-ai-train-03", "speed": "25G" },
+    { "source": "tor-biz-01", "target": "srv-ai-train-04", "speed": "25G" },
+    { "source": "tor-biz-02", "target": "srv-ai-train-04", "speed": "25G" },
+    { "source": "tor-biz-01", "target": "srv-ai-train-05", "speed": "25G" },
+    { "source": "tor-biz-02", "target": "srv-ai-train-05", "speed": "25G" },
+    
+    { "source": "tor-biz-03", "target": "srv-ai-inf-01", "speed": "25G" },
+    { "source": "tor-biz-04", "target": "srv-ai-inf-01", "speed": "25G" },
+    { "source": "tor-biz-03", "target": "srv-ai-inf-02", "speed": "25G" },
+    { "source": "tor-biz-04", "target": "srv-ai-inf-02", "speed": "25G" },
+    { "source": "tor-biz-03", "target": "srv-ai-inf-03", "speed": "25G" },
+    { "source": "tor-biz-04", "target": "srv-ai-inf-03", "speed": "25G" },
+    
+    { "source": "tor-sample-01", "target": "srv-gen-01", "speed": "25G" },
+    { "source": "tor-sample-02", "target": "srv-gen-01", "speed": "25G" },
+    { "source": "tor-sample-01", "target": "srv-mgmt-01", "speed": "25G" },
+    { "source": "tor-sample-02", "target": "srv-hpc-01", "speed": "25G" },
+    
+    { "source": "mgmt-access-01", "target": "srv-ai-train-01", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-ai-train-02", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-ai-train-03", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-ai-train-04", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-ai-train-05", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-ai-inf-01", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-ai-inf-02", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-ai-inf-03", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-gen-01", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-mgmt-01", "speed": "GE" },
+    { "source": "mgmt-access-01", "target": "srv-hpc-01", "speed": "GE" },
+    
+    { "source": "mgmt-agg-01", "target": "mgmt-access-01", "speed": "10G" },
+    { "source": "mgmt-agg-02", "target": "mgmt-access-02", "speed": "10G" },
+    
+    { "source": "mgmt-agg-02", "target": "mgmt-sys-neosight", "speed": "10G" },
+    { "source": "mgmt-agg-02", "target": "mgmt-sys-seco", "speed": "10G" },
+    { "source": "mgmt-agg-02", "target": "mgmt-sys-log", "speed": "10G" },
+    
+    { "source": "storage-mgmt-01", "target": "srv-storage-01", "speed": "10G" },
+    
+    { "source": "srv-ai-train-01", "target": "net-ai-train", "speed": "200G" },
+    { "source": "srv-ai-inf-01", "target": "net-ai-inf", "speed": "200G" }
+  ]
+}

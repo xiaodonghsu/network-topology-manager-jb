@@ -1,0 +1,5 @@
+{
+  "name": "Network Topology Manager",
+  "description": "A visual network topology management interface based on React Flow. Click on devices to access their management consoles.",
+  "requestFramePermissions": []
+}
