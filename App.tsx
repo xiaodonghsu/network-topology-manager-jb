@@ -13,7 +13,7 @@ const App: React.FC = () => {
             <Settings className="text-white w-6 h-6" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-slate-800 tracking-tight">Network Manager</h1>
+            <h1 className="text-xl font-bold text-slate-800 tracking-tight">江北研创园人工智能平台网路拓扑</h1>
             <p className="text-xs text-slate-500">Datacenter Topology Visualization</p>
           </div>
         </div>
