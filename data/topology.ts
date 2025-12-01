@@ -18,6 +18,9 @@ export const topologyData: TopologyConfig = {
     { "id": "mgmt-sys-log", "label": "LogAuditor", "type": "MANAGEMENT", "x": 1500, "y": 500, "url": "https://10.110.101.103" },
     { "id": "mgmt-sys-vscan", "label": "VSCAN", "type": "MANAGEMENT", "x": 1500, "y": 650, "url": "https://10.110.100.27" },
 
+    { "id": "mgmt-sys-dcs", "label": "FusionCompute", "type": "MANAGEMENT", "x": 1800, "y": 50, "url": "https://10.110.101.105:8443/" },
+    { "id": "mgmt-sys-nas", "label": "OceanStor", "type": "MANAGEMENT", "x": 1800, "y": 200, "url": "https://10.110.100.110:8088/" },
+
     { "id": "tor-biz-01", "label": "业务面TOR交换机01", "type": "SWITCH_TOR", "x": 50, "y": 840, "url": "#" },
     { "id": "tor-biz-02", "label": "业务面TOR交换机02", "type": "SWITCH_TOR", "x": 250, "y": 840, "url": "#" },
     { "id": "tor-biz-03", "label": "业务面TOR交换机03", "type": "SWITCH_TOR", "x": 450, "y": 840, "url": "#" },
@@ -155,13 +158,16 @@ export const topologyData: TopologyConfig = {
     { "source": "mgmt-access-01", "target": "mgmt-sys-seco", "speed": "10G" },
     { "source": "mgmt-access-01", "target": "mgmt-sys-log", "speed": "10G" },
     { "source": "mgmt-access-01", "target": "mgmt-sys-vscan", "speed": "10G" },
+    { "source": "mgmt-access-01", "target": "mgmt-sys-dcs", "speed": "10G" },
+    { "source": "mgmt-access-01", "target": "mgmt-sys-nas", "speed": "10G" },
 
     { "source": "mgmt-access-02", "target": "mgmt-sys-uma", "speed": "10G" },
     { "source": "mgmt-access-02", "target": "mgmt-sys-neosight", "speed": "10G" },
     { "source": "mgmt-access-02", "target": "mgmt-sys-seco", "speed": "10G" },
     { "source": "mgmt-access-02", "target": "mgmt-sys-log", "speed": "10G" },
     { "source": "mgmt-access-02", "target": "mgmt-sys-vscan", "speed": "10G" },
-    
+    { "source": "mgmt-access-02", "target": "mgmt-sys-dcs", "speed": "10G" },
+    { "source": "mgmt-access-02", "target": "mgmt-sys-nas", "speed": "10G" },
 
     { "source": "storage-mgmt-01", "target": "srv-storage-01", "speed": "10G" },
     
