@@ -18,7 +18,7 @@ export const topologyData: TopologyConfig = {
     { "id": "mgmt-sys-log", "label": "LogAuditor", "type": "MANAGEMENT", "x": 1500, "y": 500, "url": "https://10.110.101.103" },
     { "id": "mgmt-sys-vscan", "label": "VSCAN", "type": "MANAGEMENT", "x": 1500, "y": 650, "url": "https://10.110.100.27" },
 
-    { "id": "mgmt-sys-dcs", "label": "FusionCompute", "type": "MANAGEMENT", "x": 1800, "y": 50, "url": "https://10.110.101.105:8443/" },
+    { "id": "mgmt-sys-dcs", "label": "FusionCompute", "type": "MANAGEMENT", "x": 1800, "y": 50, "url": "https://10.110.100.105:8443/OmsPortal/" },
     { "id": "mgmt-sys-nas", "label": "OceanStor", "type": "MANAGEMENT", "x": 1800, "y": 200, "url": "https://10.110.100.110:8088/" },
 
     { "id": "tor-biz-01", "label": "业务面TOR交换机01", "type": "SWITCH_TOR", "x": 50, "y": 840, "url": "#" },
